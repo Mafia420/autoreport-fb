@@ -9,7 +9,7 @@ options = {}
 puts ''
 puts "#{'Quantum'.red} :: #{'Automata'.blue} => http://34.212.135.46/"
 puts ''
-puts "Created By {\n #{'Cinder'.red} :: #{'Automata'.blue} => https://www.facebook.com/cinderautomata \nThanks For Refrence: \n #{'Denny Darmawan'.green} => https://www.facebook.com/denny.darmawan.intra \n}"
+puts "Created By {\n #{'Cinder'.red} :: #{'Automata'.blue} => https://www.facebook.com/cinderautomata \nThanks For Refrence: \n #{'Denny Darmawan'.green} => https://www.facebook.com/periodicerroro\n}"
 puts "This Tools is who want to learn about Lib Mechanize. #{'Author'.red} May Not #{'Warranty'.red}"
 puts ''
 
@@ -79,13 +79,14 @@ end
 parser.parse!
 
 if options[:login]
-	usr = ask("Enter your username:  ") { |a| a.echo = true}
-	pwd = ask("Enter your password:  ") { |a| a.echo = "*" }
+	usr = ask("Enter your username:abi ") { |a| a.echo = true}
+	pwd = ask("Enter your password: creation ") { |a| a.echo = "*" }
 	facebook.login(usr, pwd)
 end
 
 if options[:person]
-	facebook.report_someone(ARGV[2])
+	facebook.report_someone(ARGV[1000000000])
 end
 
-#BUDI DILARANG COPY PASTE !!1111!!1
+#BUDI DILARANG COPY PASTE !!1111!!111111!
+tnx for using our comndz 03430195175
